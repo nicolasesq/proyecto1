@@ -38,13 +38,13 @@ public class BallController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Z))
 
         {
-            fuerza_X= fuerza_X-500;
+            fuerza_X= fuerza_X-200;
             
         }
                 if (Input.GetKeyDown(KeyCode.X))
 
         {
-            fuerza_X= fuerza_X+500;
+            fuerza_X= fuerza_X+200;
             
         }
     }
