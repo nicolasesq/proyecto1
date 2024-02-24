@@ -8,7 +8,7 @@ public class cubo : MonoBehaviour
     public int puntos;
     public Text textoPuntos;
 
-    private bool colisionDetectada = false; // Para evitar la detección múltiple de colisiones
+    private bool colisionDetectada = false; 
 
     // Start is called before the first frame update
     void Start()
